@@ -1,0 +1,106 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  background-color: #E9EAED;
+}
+
+.post_container {
+  display: flex;
+  justify-content: unsafe;
+  gap: 20px;
+}
+
+.post_title {
+  display: flex;
+  align-items: right;
+  font-size: 12px;
+}
+
+.user_img {
+  border-radius: 50%;
+  display: flex;
+  width: 35px;
+  height: 35px;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product_photo{
+  display: flex;
+  max-height: 300px;
+  max-width: 400px;
+}
+
+.user_info{
+  display: flex;
+  align-items: baseline;
+}
+
+.p-user_info{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.posts-box{
+  max-width: 1000px;
+
+}
+
+.menu{
+  width: 100%;
+  background-color: #35373B;
+}
+
+.menu-box{
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: #E9EAED;
+}
+
+.menu-right{
+  float: right;
+}
+
+.menu-button{
+  display:inline-block;
+  align-items: center;
+  background-color: #35373B;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.menu-button:hover{
+  background-color: #5D5F62;
+  display: flex;
+  align-items: center;
+}
+
+.menu-add-button{
+  display:inline-block;
+  align-items: center;
+  background-color: #FF7900;
+  color: white;
+  font-size: 20px;
+}
+
+.menu-serch{
+  display:inline-block;
+  align-items: center;
+  font-size: 20px;
+}
+
+.menu-log-button{
+  display:inline-block;
+  align-items: center;
+  font-size: 20px;
+}
