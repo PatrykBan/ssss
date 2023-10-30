@@ -24,6 +24,12 @@ body {
   height: 35px;
 }
 
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .display{
   display: flex;
   flex-direction: column;
@@ -50,14 +56,13 @@ body {
   max-width: 1000px;
 
 }
+.posts {
+  background-color: white;
+}
 
 .menu{
   width: 100%;
   background-color: #35373B;
-}
-
-.menu-box{
-
 }
 
 .container{
